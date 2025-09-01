@@ -1,0 +1,118 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(back2.jpg); */
+    background-repeat: no-repeat; 
+     background-size: cover;
+} 
+.boxes{
+    width: 100%;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+.box1:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.box2:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.box3:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.box1{
+    width: 400px;
+    height: 340px;
+    background-color: wheat;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.box2{
+    width: 400px;
+    height: 340px;
+     background-color: wheat;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.box3{
+    width: 400px;
+    height: 340px;
+     background-color: wheat;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.card1{
+    width: 400px;
+    height: 230px;
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(bottle3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.card2{
+    width: 400px;
+    height: 230px;
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(headset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3{
+    width: 100%;
+    height:230px;
+    background: rgb(123, 228, 139);
+    background-image: url(dest.jpg);
+    background-size: cover;
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+p{
+    padding: 15px;
+    margin: 0;
+    font-size: 18px;
+}
+ h1{
+    text-align: center;
+    margin-top: 100px;
+   
+} 
+h2{
+    padding: 10px;
+    margin: 0;
+}
+span{
+    width: 40px;
+    height:25px;
+    float: right;
+    background-color: black;
+    border-radius: 15px;
+    color:white;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.offer{
+   position:absolute;
+   top:50px;
+   right:50px;
+   background-color: black;
+   color:white;
+   padding:10px 15px;
+   border-radius:8px;
+   font-size: 14px;
+   z-index:10;
+   margin-top: 110px;
+   width: 220px;
+   height: 70px;
+}
+
+ 
